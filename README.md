@@ -1,10 +1,10 @@
-# 🔥 IgniteJS
+# IgniteJS
 
 > Create your own simple React-like framework. Less bloat. More control. Modern vibes.
 
 ---
 
-### 🚀 What is IgniteJS?
+### What is IgniteJS?
 
 **IgniteJS** is a minimal framework inspired by ReactJS — but stripped down to the essentials.
 
@@ -16,17 +16,17 @@ Built for:
 
 ---
 
-### ✨ Why IgniteJS?
+###  Why IgniteJS?
 
-✅ **Familiar JSX syntax**  
-✅ **Component-based rendering**  
-✅ **Custom style system** (React Native–inspired)  
-✅ **Server-side rendering** with config  
-✅ **No virtual DOM, no overhead**  
+ **Familiar JSX syntax**  
+ **Component-based rendering**  
+ **Custom style system** (React Native–inspired)  
+ **Server-side rendering** with config  
+ **No virtual DOM, no overhead**  
 
 ---
 
-### 🧩 Example
+###  Example
 
 ```.js
 // App.js
