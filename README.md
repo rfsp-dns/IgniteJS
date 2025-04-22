@@ -52,3 +52,10 @@ node server.js --port=1342
 ```
 
 4. Open your browser to http://localhost:3000 or http://localhost:{PORT}
+
+---
+## License
+
+This project is licensed under a **Custom Non-Commercial License**.
+
+See the full license details in the [LICENSE](./LICENSE) file.
