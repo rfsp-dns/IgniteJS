@@ -5,6 +5,7 @@ Kraft.js is a minimalist JSX runtime and server using Express.js.
 It enables server-side rendering of JSX-style components without the need for a full React setup. 
 
 This is great for prototyping or creating lightweight dynamic pages.
+
 ---
 ## Features
 
