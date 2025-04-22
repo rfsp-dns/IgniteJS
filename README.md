@@ -32,7 +32,7 @@ Kraft.js/
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/Kraft.js.git
+git clone https://github.com/zabunba/Kraft.js.git
 cd Kraft.js
 ```
 
