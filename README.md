@@ -1,63 +1,54 @@
-# IgniteJS
+# Kraft.js
 
-> Create your own simple React-like framework. Less bloat. More control. Modern vibes.
+Kraft.js is a minimalist JSX runtime and server using Express.js. 
 
+It enables server-side rendering of JSX-style components without the need for a full React setup. 
+
+This is great for prototyping or creating lightweight dynamic pages.
 ---
+## Features
 
-### What is IgniteJS?
-
-**IgniteJS** is a minimal framework inspired by ReactJS — but stripped down to the essentials.
-
-Built for:
-
-- Developers who want to **understand the core** of component-based rendering
-- Projects that demand **performance, control, and zero bloat**
-- Tinkerers and builders creating their **own modern frontend stack**
-
+- Lightweight server with Express
+- Custom JSX runtime using Babel
+- Server-side rendering without React dependency
+- Simple file-based routing via `App.js`
 ---
+## Project Structure
 
-###  Why IgniteJS?
-
- **Familiar JSX syntax**  
- **Component-based rendering**  
- **Custom style system** (React Native–inspired)  
- **Server-side rendering** with config  
- **No virtual DOM, no overhead**  
-
+```
+Kraft.js/
+├── server.js              # Entry point with Babel JSX support
+├── public/
+│   └── App.js             # Main JSX component to render
+├── private/
+│   └── Error.html         # Fallback error page
+├── package.json
+└── README.md
+```
 ---
+## Getting Started
 
-###  Example with FireLib
+1. Clone the repository:
 
-```.js
-// App.js
-import { Webpage, Title, Block, Button, StyleSheet, AreaButton } from "../lib/FireLib.js";
+```bash
+git clone https://github.com/yourusername/Kraft.js.git
+cd Kraft.js
+```
 
-const styles = StyleSheet.create({
-  title: {
-    fontSize: 24,
-    color: 'blue',
-  },
-  block: {
-    backgroundColor: 'lightgray',
-    padding: 20,
-    borderRadius: 10,
-  },
-  areabutton : {
-    border: '1px solid black',
-  }
-});
+2. Install dependecies :
 
-export default function App() {
-  const hugo = "Hugo";
-  return (
-    <Webpage pageTitle="I am something">
-      <Title type="SubTitle" style={styles.title}>This is a h1</Title>
-      <Block style={styles.block}> I am a block {hugo}</Block>
-      <Button id={"btn-1"} content={"Im a button"} onClick={() => alert('Hello mom!')} />
-      <AreaButton style={styles.areabutton} id={"area-1"} onClick={() => alert('Hello children!')}>children</AreaButton>
-    </Webpage>
-  );
-}
+```bash
+npm install
+```
 
+3. Run the server :
 
+```bash
+node server.js
+```
+or
+```bash
+node server.js --port=1342
+```
 
+4. Open your browser to http://localhost:3000 or http://localhost:{PORT}
