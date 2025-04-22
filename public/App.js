@@ -1,4 +1,4 @@
-/* FireLib in IgniteJS */
+/* FireLib in KraftJS */
 
 import { Webpage, Title, Block, Button, StyleSheet, AreaButton } from "../lib/FireLib.js";
 
