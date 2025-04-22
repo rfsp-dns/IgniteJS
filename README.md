@@ -46,7 +46,6 @@ npm install
 ```bash
 node server.js
 ```
-or
 ```bash
 node server.js --port=1342
 ```
